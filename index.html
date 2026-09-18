@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efevresis | Καινοτόμες Λύσεις Πληροφορικής, Αυτοματισμοί AI &amp; Εκπαίδευση</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Η EFEVRESIS ειδικεύεται στην ανάπτυξη και υποστήριξη λογισμικού, αυτοματισμούς AI, μηχανογράφηση και εκπαίδευση με πάνω από 28 χρόνια εμπειρίας σε δημόσιους φορείς και επιχειρήσεις.">
+  <meta name="keywords"
+    content="Efevresis, Εφεύρεσις, πληροφορική, λογισμικό, αυτοματισμοί, τεχνητή νοημοσύνη, εκπαίδευση, Θεσσαλονίκη, Αθήνα, δημόσιοι φορείς, μηχανογράφηση">
+  <meta name="author" content="Efevresis">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://efevresis.gr/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://efevresis.gr/">
+  <meta property="og:title" content="Efevresis | We Automate. We Accelerate.">
+  <meta property="og:description"
+    content="28+ χρόνια πρωτοπορίας στην πληροφορική, αυτοματοποιήσεις διεργασιών, επιχειρησιακό λογισμικό και κατάρτιση προσωπικού.">
+  <meta property="og:image" content="assets/images/efevresis-logo.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Efevresis | Καινοτόμες Λύσεις Πληροφορικής">
+  <meta name="twitter:description"
+    content="Ο αξιόπιστος συνεργάτης ψηφιακού μετασχηματισμού για δημόσιους οργανισμούς και επιχειρήσεις.">
+  <meta name="twitter:image" content="assets/images/efevresis-logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/efevresis-logo.png">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Immediate Theme Initializer to prevent flash -->
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem('efevresis_theme');
+      if (savedTheme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- Structured Data (JSON-LD) for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Efevresis",
+    "url": "https://efevresis.gr",
+    "logo": "https://efevresis.gr/site/wp-content/uploads/2025/09/ChatGPT-Image-26-Σεπ-2025-10_49_21-π.μ-768x768.png",
+    "description": "Εξειδικευμένες λύσεις πληροφορικής, αυτοματοποίησης και εκπαίδευσης για επιχειρήσεις και δημόσιους φορείς.",
+    "foundingDate": "1997",
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Νικηφόρου Ουρανού 15 – Κτίριο Γ1, PORTO CENTER, 3ος όροφος",
+        "addressLocality": "Θεσσαλονίκη",
+        "postalCode": "54627",
+        "addressCountry": "GR"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Αλεξανδρουπόλεως 20, Αμπελόκηποι",
+        "addressLocality": "Αθήνα",
+        "postalCode": "11527",
+        "addressCountry": "GR"
+      }
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+30-2310-243243",
+        "contactType": "customer service",
+        "areaServed": "GR",
+        "availableLanguage": ["Greek", "English"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+30-210-2207580",
+        "contactType": "sales",
+        "areaServed": "GR"
+      }
+    ]
+  }
+  </script>
+  <!-- Elfsight Chatbot Bubble Styling -->
+  <style>
+    .elfsight-app-5c48e162-959a-4fa8-bd56-86477379e3e6,
+    [class*="elfsight-app"],
+    [class*="es-portal-root"] {
+      z-index: 2500 !important;
+    }
+
+    /* Hide ONLY the 3 quick-reply prompt pills on page load outside the chat window,
+       while keeping the round launcher button and the 1st welcome message bubble visible */
+    [class*="widget-welcome-window"] [class*="QuickRepliesContainer"],
+    [class*="widget-welcome-window__QuickRepliesContainer"],
+    .widget-welcome-window__QuickRepliesContainer-sc-28aef09f-2,
+    [class*="widget-welcome-window"] [class*="quick-reply-button"],
+    [class*="widget-welcome-window"] .es-quick-reply-button {
+      display: none !important;
+      opacity: 0 !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+      height: 0 !important;
+      max-height: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: hidden !important;
+    }
+
+    /* Ensure the welcome message bubble container and round button remain fully visible */
+    [class*="widget-welcome-window__WelcomeMessageContainer"],
+    [class*="widget-welcome-window__WelcomeDialogMessage"],
+    [class*="es-bubble-floating-button"],
+    [class*="es-floating-button-container"] {
+      display: flex !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+
+    /* On mobile devices: Position the welcome bubble directly ABOVE the chat button instead of beside it */
+    @media (max-width: 768px) {
+
+      [class*="widget-welcome-window__Container"],
+      [class*="widget-welcome-window"],
+      .widget-welcome-window__Container-sc-28aef09f-7 {
+        bottom: 92px !important;
+        right: 16px !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
+        max-width: calc(100vw - 32px) !important;
+      }
+
+      [class*="widget-welcome-window__WelcomeMessageContainer"] {
+        max-width: 280px !important;
+      }
+
+      [class*="widget-welcome-window"] [class*="es-message-tail"],
+      [class*="widget-welcome-window"] [class*="StyledTailIcon"] {
+        position: absolute !important;
+        bottom: -7px !important;
+        right: 24px !important;
+        top: auto !important;
+        left: auto !important;
+        transform: rotate(90deg) !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Efevresis Αρχική Σελίδα">
+        <img src="assets/images/efevresis-logo.png" alt="Efevresis Logo" width="48" height="48">
+        <div class="brand-text">
+          <span class="brand-title">EFEVRESIS</span>
+          <span class="brand-sub">IT &amp; Automation Systems</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#hero" class="nav-link active" role="menuitem" data-i18n="nav_home">Αρχική</a></li>
+        <li role="none"><a href="#services" class="nav-link" role="menuitem" data-i18n="nav_services">Υπηρεσίες</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem" data-i18n="nav_about">Η Εταιρεία</a></li>
+        <li role="none"><a href="#clients" class="nav-link" role="menuitem" data-i18n="nav_clients">Πελατολόγιο</a></li>
+        <li role="none"><a href="#calculator" class="nav-link" role="menuitem" data-i18n="nav_estimator">Εκτίμηση
+            Έργου</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem" data-i18n="nav_contact">Επικοινωνία</a></li>
+      </ul>
+
+      <!-- CTA, Theme Toggle, Language Switcher & Mobile Trigger -->
+      <div class="nav-actions">
+        <div class="nav-controls-group">
+          <!-- Language Switcher -->
+          <div class="lang-switcher" aria-label="Επιλογή Γλώσσας">
+            <button class="lang-btn active" data-lang="el" title="Ελληνικά">GR</button>
+            <button class="lang-btn" data-lang="en" title="English">EN</button>
+          </div>
+
+          <!-- Theme Toggle (Dark / Light) -->
+          <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Εναλλαγή θέματος"
+            title="Dark / Light Mode">
+            <i class="bi bi-moon-stars-fill icon-theme-dark"></i>
+            <i class="bi bi-sun-fill icon-theme-light"></i>
+          </button>
+        </div>
+
+        <a href="#contact" class="btn btn-secondary" data-open-quote>
+          <span data-i18n="nav_quote_btn">Ζητήστε Προσφορά</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </a>
+        <button class="mobile-toggle" aria-label="Άνοιγμα Μενού" id="mobile-menu-btn">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <nav class="mobile-menu-drawer" id="mobile-menu" aria-label="Κινητή Πλοήγηση">
+      <a href="#hero" class="nav-link" data-i18n="nav_home">Αρχική</a>
+      <a href="#services" class="nav-link" data-i18n="nav_services">Υπηρεσίες</a>
+      <a href="#about" class="nav-link" data-i18n="nav_about">Η Εταιρεία</a>
+      <a href="#clients" class="nav-link" data-i18n="nav_clients">Πελατολόγιο</a>
+      <a href="#calculator" class="nav-link" data-i18n="nav_estimator">Εκτίμηση Έργου</a>
+      <a href="#contact" class="nav-link" data-i18n="nav_contact">Επικοινωνία</a>
+
+      <!-- Mobile Controls (Language & Theme) -->
+      <div class="mobile-controls-row">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="el">GR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button type="button" class="theme-toggle-btn mobile-theme-toggle" id="mobile-theme-toggle-btn"
+          aria-label="Εναλλαγή θέματος">
+          <i class="bi bi-moon-stars-fill icon-theme-dark"></i>
+          <i class="bi bi-sun-fill icon-theme-light"></i>
+          <span class="theme-label" data-i18n="theme_toggle_label">Light Mode</span>
+        </button>
+      </div>
+
+      <a href="#contact" class="btn btn-primary" data-open-quote style="margin-top: 10px;"
+        data-i18n="nav_quote_btn">Ζητήστε Προσφορά</a>
+    </nav>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <main id="main-content">
+    <section class="hero-section" id="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="hero_badge">We Automate &bull; We Accelerate</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero_title">
+            Καινοτόμες Λύσεις <br>
+            <span class="gradient-text">Αυτοματισμού &amp; Λογισμικού</span>
+          </h1>
+
+          <p class="hero-desc" data-i18n="hero_desc">
+            Εδώ και 28 χρόνια οδηγούμε τον ψηφιακό μετασχηματισμό σε υπουργεία, δημόσιους φορείς και δυναμικές
+            επιχειρήσεις με σύγχρονες λύσεις λογισμικού, τεχνητή νοημοσύνη και εξειδικευμένη εκπαίδευση.
+          </p>
+
+          <div class="hero-cta">
+            <button class="btn btn-primary" data-open-quote>
+              <span data-i18n="hero_btn_quote">Ζητήστε Προσφορά</span>
+              <i class="bi bi-arrow-up-right"></i>
+              <div class="btn-glow"></div>
+            </button>
+            <a href="#services" class="btn btn-secondary">
+              <span data-i18n="hero_btn_explore">Ανακαλύψτε τις Υπηρεσίες</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline-cyber">
+              <i class="bi bi-telephone"></i>
+              <span data-i18n="hero_btn_contact">Επικοινωνία</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Terminal Dashboard -->
+        <div class="hero-terminal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+            </div>
+            <span class="terminal-tag">EFEVRESIS_CORE // V.2026</span>
+          </div>
+
+          <div class="terminal-stats">
+            <div class="stat-box">
+              <div class="stat-number">28+</div>
+              <div class="stat-label" data-i18n="hero_stat_1_label">Έτη Εμπειρίας &amp; Καινοτομίας</div>
+            </div>
+            <a href="#clients" class="stat-box stat-box-link" title="Δείτε το Πελατολόγιο (1300+ Φορείς)">
+              <div class="stat-number">1300+</div>
+              <div class="stat-label" data-i18n="hero_stat_2_label">Φορείς &amp; Επιχειρήσεις</div>
+              <div class="stat-box-btn">
+                <span data-i18n="hero_stat_view_badge">Προβολή</span>
+                <i class="bi bi-arrow-right-short"></i>
+              </div>
+            </a>
+            <div class="stat-box">
+              <div class="stat-number">99.9%</div>
+              <div class="stat-label" data-i18n="hero_stat_3_label">Διαθεσιμότητα Συστημάτων</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label" data-i18n="hero_stat_4_label">Υποστήριξη &amp; Συντήρηση</div>
+            </div>
+          </div>
+
+          <div class="terminal-system-status">
+            <i class="bi bi-shield-check" style="color: var(--accent-cyan); font-size: 1.3rem;"></i>
+            <span data-i18n="hero_status_text">Όλα τα πληροφοριακά συστήματα &amp; υπηρεσίες λειτουργούν σε πλήρη
+              απόδοση.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRUST / BADGE STRIP
+         ========================================================================== -->
+    <section class="trust-strip" aria-label="Πιστοποιήσεις και Εμπιστοσύνη">
+      <div class="container trust-flex">
+        <div class="trust-title" data-i18n="trust_title">Εμπιστοσύνη &amp; Πρότυπα:</div>
+        <div class="trust-badges">
+          <div class="trust-badge-item">
+            <i class="bi bi-award-fill"></i>
+            <span data-i18n="trust_badge_1">28 Χρόνια Αδιάλειπτης Παρουσίας</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="bi bi-cpu-fill"></i>
+            <span data-i18n="trust_badge_2">AI-Driven Automations</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="bi bi-patch-check-fill"></i>
+            <span data-i18n="trust_badge_3">Πλήρης Συμμόρφωση GDPR &amp; Ασφάλεια</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span data-i18n="trust_badge_4">Γραφεία Θεσσαλονίκη &amp; Αθήνα</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES SECTION
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="services_badge">Οι Υπηρεσίες Μας</span>
+          </div>
+          <h2 class="section-title" data-i18n="services_title">Τι Σας <span class="gradient-text">Προσφέρουμε</span>
+          </h2>
+          <p class="lead-text" data-i18n="services_subtitle">
+            Ολοκληρωμένο φάσμα ψηφιακών λύσεων σχεδιασμένο να εξαλείφει γραφειοκρατία, να εκσυγχρονίζει διεργασίες και
+            να απογειώνει την παραγωγικότητα.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Αυτοματοποίηση -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-robot"></i>
+            </div>
+            <h3 class="service-title" data-i18n="srv_1_title">Αυτοματοποίηση &amp; <strong>AI</strong></h3>
+            <p class="service-desc" data-i18n="srv_1_desc">
+              Αξιοποιούμε την τεχνητή νοημοσύνη και έξυπνα workflow bots για να απλοποιούμε πολύπλοκες καθημερινές
+              διαδικασίες, μειώνοντας δραστικά τον χρόνο και τα ανθρώπινα σφάλματα.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_1_f1">Έξυπνη διαχείριση εγγράφων &amp;
+                  πρωτοκόλλου</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_1_f2">Αυτοματοποιημένες ροές έγκρισης</span>
+              </li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_1_f3">AI data processing &amp;
+                  αναφορές</span></li>
+            </ul>
+            <a href="#contact" class="service-link">
+              <span data-i18n="srv_interest_btn">Εκδήλωση Ενδιαφέροντος</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Service 2: Λογισμικό -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="service-title" data-i18n="srv_2_title">Προμήθεια &amp; Υποστήριξη Λογισμικού</h3>
+            <p class="service-desc" data-i18n="srv_2_desc">
+              Παρέχουμε ολοκληρωμένες λύσεις λογισμικού, από έτοιμες επιχειρησιακές εφαρμογές μηχανογράφησης μέχρι
+              εξειδικευμένα εργαλεία προσαρμοσμένα στις ακριβείς ανάγκες κάθε οργανισμού.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_2_f1">Ολοκληρωμένα συστήματα ERP &amp;
+                  CRM</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_2_f2">Εγκατάσταση, migration &amp; cloud
+                  setup</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_2_f3">Συνεχής συντήρηση και άμεση
+                  υποστήριξη</span></li>
+            </ul>
+            <a href="#contact" class="service-link">
+              <span data-i18n="srv_interest_btn">Εκδήλωση Ενδιαφέροντος</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Service 3: Εκπαίδευση -->
+          <article class="service-card">
+            <div class="service-icon-wrapper">
+              <i class="bi bi-mortarboard"></i>
+            </div>
+            <h3 class="service-title" data-i18n="srv_3_title">Εκπαίδευση Προσωπικού</h3>
+            <p class="service-desc" data-i18n="srv_3_desc">
+              Προσφέρουμε στοχευμένα προγράμματα κατάρτισης που ενισχύουν τις ψηφιακές δεξιότητες του ανθρώπινου
+              δυναμικού, διασφαλίζοντας την ταχεία υιοθέτηση και μέγιστη απόδοση των νέων τεχνολογιών.
+            </p>
+            <ul class="service-features">
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_3_f1">Σεμινάρια ψηφιακού
+                  μετασχηματισμού</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_3_f2">Hands-on workshops σε λογισμικά</span>
+              </li>
+              <li><i class="bi bi-check2-circle"></i> <span data-i18n="srv_3_f3">Πρακτικοί οδηγοί &amp; continuous
+                  coaching</span></li>
+            </ul>
+            <a href="#contact" class="service-link">
+              <span data-i18n="srv_interest_btn">Εκδήλωση Ενδιαφέροντος</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT US SECTION
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <div class="badge">
+              <span class="badge-dot"></span>
+              <span data-i18n="about_badge">Η Εταιρεία Μας</span>
+            </div>
+            <h2 class="section-title" data-i18n="about_title">28 Χρόνια Σεβασμού &amp; <span
+                class="gradient-text">Εμπιστοσύνης</span></h2>
+            <p class="lead-text" data-i18n="about_lead">
+              Η <strong>EFEVRESIS</strong> είναι μια δυναμική εταιρεία πληροφορικής που ειδικεύεται στη μηχανογράφηση,
+              στα επιχειρησιακά λογισμικά, στους αυτοματισμούς και στην εκπαίδευση στελεχών.
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.98rem;" data-i18n="about_desc">
+              Με όραμα τον ουσιαστικό ψηφιακό εκσυγχρονισμό, στεκόμαστε δίπλα σε φορείς και επιχειρήσεις σε κάθε βήμα.
+              Δεν προσφέρουμε απλώς τεχνολογία – χτίζουμε μακροχρόνιες σχέσεις αξιοπιστίας, βοηθώντας τους συνεργάτες
+              μας να αντιμετωπίζουν τις προκλήσεις του αύριο.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feat-item">
+                <h4><i class="bi bi-check-circle"></i> <span data-i18n="about_feat_1_title">Εμπειρία 25+ Ετών</span>
+                </h4>
+                <p data-i18n="about_feat_1_desc">Εκατοντάδες επιτυχημένες υλοποιήσεις σε έργα κρίσιμης σημασίας.</p>
+              </div>
+              <div class="about-feat-item">
+                <h4><i class="bi bi-gear-wide-connected"></i> <span data-i18n="about_feat_2_title">Tailor-Made
+                    Λύσεις</span></h4>
+                <p data-i18n="about_feat_2_desc">Προσαρμογή 100% στις ιδιαιτερότητες κάθε πελάτη και οργανισμού.</p>
+              </div>
+              <div class="about-feat-item">
+                <h4><i class="bi bi-shield-lock"></i> <span data-i18n="about_feat_3_title">Ασφάλεια &amp;
+                    Σταθερότητα</span></h4>
+                <p data-i18n="about_feat_3_desc">Κορυφαία πρότυπα προστασίας δεδομένων και αδιάκοπη λειτουργία.</p>
+              </div>
+              <div class="about-feat-item">
+                <h4><i class="bi bi-people"></i> <span data-i18n="about_feat_4_title">Συνεχής Υποστήριξη</span></h4>
+                <p data-i18n="about_feat_4_desc">Άμεση ανταπόκριση από εξειδικευμένους μηχανικούς πληροφορικής.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission, Vision, Goal Cards -->
+          <div class="mission-vision-wrapper">
+            <div class="mv-card">
+              <div class="mv-card-accent"></div>
+              <h3><i class="bi bi-bullseye"></i> <span data-i18n="about_goal_title">Ο Στόχος Μας</span></h3>
+              <p data-i18n="about_goal_desc">
+                Να προσφέρουμε αξιόπιστες λύσεις λογισμικού, αυτοματοποίησης και εκπαίδευσης που βελτιώνουν την
+                αποδοτικότητα και εκσυγχρονίζουν ολοκληρωτικά τη λειτουργία κάθε οργανισμού.
+              </p>
+            </div>
+
+            <div class="mv-card">
+              <div class="mv-card-accent"></div>
+              <h3><i class="bi bi-rocket-takeoff"></i> <span data-i18n="about_mission_title">Η Αποστολή Μας</span></h3>
+              <p data-i18n="about_mission_desc">
+                Να υποστηρίζουμε οργανισμούς και επιχειρήσεις στον ψηφιακό τους εκσυγχρονισμό, παρέχοντας τεχνογνωσία
+                που απλοποιεί διαδικασίες, μειώνει τη γραφειοκρατία και απελευθερώνει χρόνο για ανάπτυξη.
+              </p>
+            </div>
+
+            <div class="mv-card">
+              <div class="mv-card-accent"></div>
+              <h3><i class="bi bi-eye"></i> <span data-i18n="about_vision_title">Το Όραμά Μας</span></h3>
+              <p data-i18n="about_vision_desc">
+                Ένας κόσμος όπου η τεχνολογία λειτουργεί ως καταλύτης ανάπτυξης και καινοτομίας, επιτρέποντας σε κάθε
+                οργανισμό να εξελίσσεται και να ανταποκρίνεται με επιτυχία στο μέλλον.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENTS / PORTFOLIO DIRECTORY
+         ========================================================================== -->
+    <section class="section clients-section" id="clients">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="clients_badge">Πελατολόγιο</span>
+          </div>
+          <h2 class="section-title" data-i18n="clients_title">Φορείς &amp; Οργανισμοί που μας <span
+              class="gradient-text">Εμπιστεύτηκαν</span></h2>
+          <p class="lead-text" data-i18n="clients_subtitle">
+            Πάνω από 1.300 δημόσιοι οργανισμοί, υπουργεία, ανώτατα εκπαιδευτικά ιδρύματα και επιχειρήσεις βασίζονται
+            στην Efevresis.
+          </p>
+        </div>
+
+        <!-- Sector Summary Badges / Highlight Cards -->
+        <div class="clients-sector-stats">
+          <div class="sector-stat-card" data-filter="Οργανισμοί, Δήμοι &amp; Επιτροπές" role="button" tabindex="0"
+            title="Φιλτράρισμα: Δήμοι &amp; Δημόσιοι Οργανισμοί">
+            <div class="sector-stat-icon">
+              <i class="bi bi-buildings"></i>
+            </div>
+            <div class="sector-stat-info">
+              <div class="sector-stat-num">520+</div>
+              <div class="sector-stat-label" data-i18n="sector_stat_1">Δήμοι &amp; Δημόσιοι Οργανισμοί</div>
+            </div>
+            <div class="sector-stat-arrow"><i class="bi bi-arrow-right"></i></div>
+          </div>
+
+          <div class="sector-stat-card" data-filter="Επιχειρήσεις &amp; Φορείς" role="button" tabindex="0"
+            title="Φιλτράρισμα: Επιχειρήσεις &amp; Βιομηχανίες">
+            <div class="sector-stat-icon">
+              <i class="bi bi-briefcase"></i>
+            </div>
+            <div class="sector-stat-info">
+              <div class="sector-stat-num">380+</div>
+              <div class="sector-stat-label" data-i18n="sector_stat_2">Επιχειρήσεις &amp; Βιομηχανίες</div>
+            </div>
+            <div class="sector-stat-arrow"><i class="bi bi-arrow-right"></i></div>
+          </div>
+
+          <div class="sector-stat-card" data-filter="Υπουργεία &amp; Κεντρική Διοίκηση" role="button" tabindex="0"
+            title="Φιλτράρισμα: Υπουργεία &amp; Κεντρική Διοίκηση">
+            <div class="sector-stat-icon">
+              <i class="bi bi-shield-shaded"></i>
+            </div>
+            <div class="sector-stat-info">
+              <div class="sector-stat-num">240+</div>
+              <div class="sector-stat-label" data-i18n="sector_stat_3">Υπουργεία &amp; Κεντρική Διοίκηση</div>
+            </div>
+            <div class="sector-stat-arrow"><i class="bi bi-arrow-right"></i></div>
+          </div>
+
+          <div class="sector-stat-card" data-filter="Πανεπιστήμια &amp; Εκπαίδευση" role="button" tabindex="0"
+            title="Φιλτράρισμα: Πανεπιστήμια &amp; Εκπαίδευση">
+            <div class="sector-stat-icon">
+              <i class="bi bi-mortarboard"></i>
+            </div>
+            <div class="sector-stat-info">
+              <div class="sector-stat-num">170+</div>
+              <div class="sector-stat-label" data-i18n="sector_stat_4">Πανεπιστήμια &amp; Εκπαίδευση</div>
+            </div>
+            <div class="sector-stat-arrow"><i class="bi bi-arrow-right"></i></div>
+          </div>
+        </div>
+
+        <div class="clients-toolbar">
+          <!-- Category Tabs -->
+          <div class="clients-filter-tabs" role="tablist">
+            <button class="filter-tab active" data-filter="all" role="tab" data-i18n="tab_all">Όλοι οι Φορείς</button>
+            <button class="filter-tab" data-filter="Οργανισμοί, Δήμοι &amp; Επιτροπές" role="tab"
+              data-i18n="tab_orgs">Δήμοι &amp; Δημόσιοι Οργανισμοί</button>
+            <button class="filter-tab" data-filter="Επιχειρήσεις &amp; Φορείς" role="tab"
+              data-i18n="tab_business">Επιχειρήσεις</button>
+            <button class="filter-tab" data-filter="Υπουργεία &amp; Κεντρική Διοίκηση" role="tab"
+              data-i18n="tab_ministries">Υπουργεία &amp; Κυβέρνηση</button>
+            <button class="filter-tab" data-filter="Πανεπιστήμια &amp; Εκπαίδευση" role="tab"
+              data-i18n="tab_edu">Πανεπιστήμια &amp; Εκπαίδευση</button>
+          </div>
+
+          <!-- Live Search Input -->
+          <div class="client-search-wrapper">
+            <i class="bi bi-search client-search-icon" aria-hidden="true"></i>
+            <input type="text" id="client-search" class="client-search-input"
+              placeholder="Αναζήτηση φορέα, δήμου, οργανισμού ή επιχείρησης..." aria-label="Αναζήτηση πελάτη">
+            <span class="client-count-pill" id="client-count">1312 Φορείς</span>
+          </div>
+        </div>
+
+        <!-- Clients Dynamic Grid -->
+        <div class="clients-grid" id="clients-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE PROJECT ESTIMATOR (CALCULATOR)
+         ========================================================================== -->
+    <section class="section" id="calculator">
+      <div class="container">
+        <div class="calculator-card">
+          <div class="calc-grid">
+            <div class="calc-form-container">
+              <div class="badge" style="margin-bottom: 12px;">
+                <span class="badge-dot"></span>
+                <span data-i18n="calc_badge">Interactive Estimator</span>
+              </div>
+              <h2 class="tech-heading" style="font-size: 2.2rem; margin-bottom: 14px;" data-i18n="calc_title">
+                Υπολογίστε τις Ανάγκες του <span class="gradient-text">Έργου σας</span>
+              </h2>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px;" data-i18n="calc_desc">
+                Επιλέξτε τον τύπο του οργανισμού σας και τις επιθυμητές υπηρεσίες για μια άμεση αρχική εκτίμηση
+                υλοποίησης:
+              </p>
+
+              <form id="project-calculator" class="calc-form">
+                <div class="calc-group">
+                  <label class="calc-label" data-i18n="calc_step1">1. Τύπος Οργανισμού:</label>
+                  <div class="calc-options">
+                    <label>
+                      <input type="radio" name="org_type" value="public" class="calc-opt" checked>
+                      <span class="calc-opt-label" data-i18n="calc_org_pub">Δημόσιος Φορέας</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="org_type" value="edu" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_org_edu">Πανεπιστήμιο / Σχολείο</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="org_type" value="private" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_org_priv">Ιδιωτική Επιχείρηση</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="calc-group">
+                  <label class="calc-label" data-i18n="calc_step2">2. Κύρια Υπηρεσία:</label>
+                  <div class="calc-options">
+                    <label>
+                      <input type="radio" name="service_type" value="automation" class="calc-opt" checked>
+                      <span class="calc-opt-label" data-i18n="calc_srv_auto">Αυτοματοποίηση &amp; AI</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="service_type" value="software" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_srv_soft">Λογισμικό &amp; Setup</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="service_type" value="training" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_srv_train">Εκπαίδευση Στελεχών</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="service_type" value="all" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_srv_all">Ολοκληρωμένο Πακέτο</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="calc-group">
+                  <label class="calc-label" data-i18n="calc_step3">3. Κλίμακα Έργου:</label>
+                  <div class="calc-options">
+                    <label>
+                      <input type="radio" name="scale" value="small" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_scale_sm">Βασική (1-10 χρήστες)</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="scale" value="medium" class="calc-opt" checked>
+                      <span class="calc-opt-label" data-i18n="calc_scale_md">Μεσαία (10-50 χρήστες)</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="scale" value="large" class="calc-opt">
+                      <span class="calc-opt-label" data-i18n="calc_scale_lg">Μεγάλη (50+ χρήστες)</span>
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Result Box -->
+            <div class="calc-result-box">
+              <span class="calc-badge" data-i18n="calc_res_badge">Εκτιμώμενος Χρόνος Υλοποίησης</span>
+              <div class="calc-eta" id="calc-eta-text">15-20 Εργάσιμες</div>
+              <p class="calc-summary" id="calc-summary-text">
+                Ολοκληρωμένη μελέτη και εφαρμογή αυτοματισμού με προσαρμοσμένες AI ροές.
+              </p>
+              <button type="button" class="btn btn-primary" id="calc-send-quote-btn" style="width: 100%;">
+                <i class="bi bi-send-check-fill"></i>
+                <span data-i18n="calc_res_btn">Αποστολή Εκτίμησης για Προσφορά</span>
+                <div class="btn-glow"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="contact_badge">Επικοινωνία</span>
+          </div>
+          <h2 class="section-title" data-i18n="contact_title">Ας Συζητήσουμε το <span class="gradient-text">Project
+              σας</span></h2>
+          <p class="lead-text" data-i18n="contact_subtitle">
+            Είμαστε εδώ για να δώσουμε ζωή στις ιδέες σας και να κάνουμε την τεχνολογία απλή και χρήσιμη για εσάς.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Office Info Cards -->
+          <div class="contact-info-cards">
+            <!-- Thessaloniki Office -->
+            <div class="office-card">
+              <div class="office-header">
+                <h3 class="office-title"><i class="bi bi-geo-alt"></i> <span data-i18n="contact_skg_title">Έδρα
+                    Θεσσαλονίκης</span></h3>
+                <span class="office-badge" data-i18n="contact_skg_badge">Κεντρικά</span>
+              </div>
+              <div class="office-detail">
+                <div class="detail-row">
+                  <i class="bi bi-pin-map"></i>
+                  <span>Νικηφόρου Ουρανού 15 – Κτίριο Γ1, PORTO CENTER, Τ.Κ. 54627, 3ος όροφος, Θεσσαλονίκη</span>
+                </div>
+                <div class="detail-row">
+                  <i class="bi bi-telephone"></i>
+                  <a href="tel:2310243243">2310 243243</a>
+                </div>
+                <div class="detail-row">
+                  <i class="bi bi-phone"></i>
+                  <a href="tel:6944663141">6944 663141</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Athens Office -->
+            <div class="office-card">
+              <div class="office-header">
+                <h3 class="office-title"><i class="bi bi-building"></i> <span data-i18n="contact_ath_title">Γραφείο
+                    Αθηνών</span></h3>
+                <span class="office-badge" data-i18n="contact_ath_badge">Υποκατάστημα</span>
+              </div>
+              <div class="office-detail">
+                <div class="detail-row">
+                  <i class="bi bi-pin-map"></i>
+                  <span>Αλεξανδρουπόλεως 20, Αμπελόκηποι, Τ.Κ. 11527, Αθήνα</span>
+                </div>
+                <div class="detail-row">
+                  <i class="bi bi-telephone"></i>
+                  <a href="tel:2102207580">210 2207580</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tax & Legal Details -->
+            <div class="office-card" style="padding: 20px 28px;">
+              <div class="office-detail">
+                <div class="detail-row">
+                  <i class="bi bi-card-checklist"></i>
+                  <span><strong>ΑΦΜ:</strong> 802691258 &bull; <strong>ΔΟΥ:</strong> Ε' Θεσσαλονίκης</span>
+                </div>
+                <div class="detail-row">
+                  <i class="bi bi-envelope-at"></i>
+                  <a href="mailto:ilias@toner-melania.gr">ilias@toner-melania.gr</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+            <h3 class="tech-heading" style="font-size: 1.6rem; margin-bottom: 20px;" data-i18n="contact_form_heading">
+              Στείλτε μας Μήνυμα</h3>
+            <form id="main-contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contact-name" data-i18n="contact_field_name">Ονοματεπώνυμο *</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="π.χ. Ιωάννης Δημητρίου"
+                    data-i18n-placeholder="placeholder_name" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-email" data-i18n="contact_field_email">Email *</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="name@organization.gr"
+                    data-i18n-placeholder="placeholder_email" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contact-phone" data-i18n="contact_field_phone">Τηλέφωνο Επικοινωνίας
+                    *</label>
+                  <input type="tel" id="contact-phone" class="form-input" placeholder="π.χ. 2310 123456"
+                    data-i18n-placeholder="placeholder_phone" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-org" data-i18n="contact_field_org">Οργανισμός /
+                    Επιχείρηση</label>
+                  <input type="text" id="contact-org" class="form-input" placeholder="π.χ. Δήμος ή Εταιρεία"
+                    data-i18n-placeholder="placeholder_org">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-subject" data-i18n="contact_field_interest">Ενδιαφέρον
+                  για:</label>
+                <select id="contact-subject" class="form-select">
+                  <option value="automation" data-i18n="contact_opt_1">Αυτοματοποίηση &amp; AI Εφαρμογές</option>
+                  <option value="software" data-i18n="contact_opt_2">Προμήθεια &amp; Υποστήριξη Λογισμικού</option>
+                  <option value="training" data-i18n="contact_opt_3">Εκπαίδευση &amp; Κατάρτιση Στελεχών</option>
+                  <option value="general" data-i18n="contact_opt_4">Γενική Πληροφόρηση / Άλλο</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message" data-i18n="contact_field_msg">Το Μήνυμά σας *</label>
+                <textarea id="contact-message" rows="4" class="form-textarea"
+                  placeholder="Περιγράψτε συνοπτικά τις ανάγκες του έργου σας..."
+                  data-i18n-placeholder="placeholder_msg" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span data-i18n="contact_field_submit">Αποστολή Μηνύματος</span>
+                <i class="bi bi-send-fill"></i>
+              </button>
+              <p class="form-gdpr-notice" data-i18n="form_gdpr_notice">
+                Με την υποβολή αποδέχεστε την <a href="#" class="legal-link" data-open-legal="privacy">Πολιτική Απορρήτου (GDPR)</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <a href="#hero" class="brand-logo" style="margin-bottom: 8px;">
+            <img src="assets/images/efevresis-logo.png" alt="Efevresis Logo" width="42" height="42">
+            <span class="brand-title" style="font-size: 1.3rem;">EFEVRESIS</span>
+          </a>
+          <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;" data-i18n="footer_desc">
+            Ο αξιόπιστος συνεργάτης σας σε έργα πληροφορικής, αυτοματοποίησης και ψηφιακού εκσυγχρονισμού με 28+ έτη
+            πρωτοπορίας στην ελληνική επικράτεια.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_services">Υπηρεσίες</h4>
+          <ul class="footer-links">
+            <li><a href="#services" data-i18n="srv_1_title">Αυτοματοποίηση &amp; AI</a></li>
+            <li><a href="#services" data-i18n="srv_2_title">Προμήθεια Λογισμικού</a></li>
+            <li><a href="#services" data-i18n="hero_stat_4_label">Υποστήριξη &amp; Συντήρηση</a></li>
+            <li><a href="#services" data-i18n="srv_3_title">Εκπαίδευση Στελεχών</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_links">Γρήγοροι Σύνδεσμοι</h4>
+          <ul class="footer-links">
+            <li><a href="#about" data-i18n="nav_about">Η Εταιρεία Μας</a></li>
+            <li><a href="#clients" data-i18n="nav_clients">Πελατολόγιο (1300+ Φορείς)</a></li>
+            <li><a href="#calculator" data-i18n="nav_estimator">Εκτίμηση Έργου</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Επικοινωνία</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_legal">Νομικά &amp; Απόρρητο</h4>
+          <ul class="footer-links">
+            <li><a href="#" data-open-legal="privacy" data-i18n="footer_privacy">Πολιτική Απορρήτου (GDPR)</a></li>
+            <li><a href="#" data-open-legal="terms" data-i18n="footer_terms">Όροι Χρήσης</a></li>
+            <li><a href="#" data-open-legal="cookies" data-i18n="footer_cookies">Πολιτική Cookies</a></li>
+            <li><a href="#" data-open-legal="cookies" data-i18n="footer_cookie_settings">Ρυθμίσεις Cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer_newsletter">Ενημερωτικό Δελτίο</h4>
+          <p style="color: var(--text-muted); font-size: 0.88rem;" data-i18n="footer_newsletter_desc">
+            Μάθετε πρώτοι για νέες ψηφιακές τεχνολογίες και προγράμματα εκσυγχρονισμού:
+          </p>
+          <form class="footer-newsletter"
+            onsubmit="event.preventDefault(); alert('Ευχαριστούμε για την εγγραφή σας!'); this.reset();">
+            <input type="email" placeholder="Το email σας" data-i18n-placeholder="placeholder_newsletter" required
+              aria-label="Newsletter Email">
+            <button type="submit" aria-label="Εγγραφή"><i class="bi bi-envelope-arrow-up"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer_rights">
+          Copyright &copy; 2026 <strong>Efevresis</strong> &bull; All Rights Reserved.
+        </div>
+        <div class="footer-legal-badge">
+          <span>ΑΦΜ 802691258</span>
+          <span>&bull;</span>
+          <span>ΔΟΥ Ε' Θεσσαλονίκης</span>
+          <span>&bull;</span>
+          <span data-i18n="footer_gemi">Αρ. Γ.Ε.ΜΗ.: 184592006000</span>
+          <span>&bull;</span>
+          <a href="#" data-open-legal="privacy" class="footer-gdpr-pill"><i class="bi bi-shield-check"></i> GDPR Compliant</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       QUOTE MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="quote-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Κλείσιμο Παραθύρου">&times;</button>
+      <div class="badge" style="margin-bottom: 12px;">
+        <span class="badge-dot"></span>
+        <span data-i18n="modal_badge">Quick Quote</span>
+      </div>
+      <h3 class="tech-heading" style="font-size: 1.8rem; margin-bottom: 10px;" data-i18n="modal_title">Ζητήστε Προσφορά
+      </h3>
+      <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 24px;" data-i18n="modal_desc">
+        Συμπληρώστε τα βασικά στοιχεία και ένας σύμβουλος τεχνολογίας της Efevresis θα επικοινωνήσει μαζί σας εντός 24
+        ωρών.
+      </p>
+
+      <div id="modal-calc-summary" class="modal-calc-summary" style="display: none;">
+        <div class="modal-calc-badge"><i class="bi bi-calculator"></i> <span data-i18n="modal_calc_tag">Συμπεριλήφθηκε
+            Εκτίμηση Έργου</span></div>
+        <div id="modal-calc-details" class="modal-calc-details"></div>
+      </div>
+
+      <form id="modal-quote-form" class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="quote-name" data-i18n="modal_name_label">Ονοματεπώνυμο *</label>
+          <input type="text" id="quote-name" class="form-input" placeholder="π.χ. Ιωάννης Δημητρίου"
+            data-i18n-placeholder="placeholder_name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="quote-email" data-i18n="modal_email_label">Email *</label>
+            <input type="email" id="quote-email" class="form-input" placeholder="name@company.gr"
+              data-i18n-placeholder="placeholder_email" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="quote-phone" data-i18n="modal_phone_label">Τηλέφωνο *</label>
+            <input type="tel" id="quote-phone" class="form-input" placeholder="69xxxxxxxx"
+              data-i18n-placeholder="placeholder_phone" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="quote-interest" data-i18n="modal_interest_label">Ενδιαφέρον για:</label>
+          <select id="quote-interest" class="form-select">
+            <option data-i18n="modal_opt_1">Αυτοματοποίηση &amp; AI Bots</option>
+            <option data-i18n="modal_opt_2">Προμήθεια / Εγκατάσταση Λογισμικού</option>
+            <option data-i18n="modal_opt_3">Εκπαίδευση Προσωπικού</option>
+            <option data-i18n="modal_opt_4">Ολοκληρωμένη Ψηφιακή Αναβάθμιση</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top: 8px;">
+          <span data-i18n="modal_submit_btn">Υποβολή Αιτήματος</span>
+          <i class="bi bi-check2-circle"></i>
+        </button>
+        <p class="form-gdpr-notice" data-i18n="form_gdpr_notice">
+          Με την υποβολή αποδέχεστε την <a href="#" class="legal-link" data-open-legal="privacy">Πολιτική Απορρήτου (GDPR)</a>.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PRIVACY POLICY MODAL (GDPR)
+       ========================================================================== -->
+  <div class="modal-overlay legal-modal-overlay" id="privacy-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card legal-modal-card">
+      <button class="modal-close legal-modal-close" aria-label="Κλείσιμο Παραθύρου">&times;</button>
+      <div class="legal-modal-header">
+        <div class="badge">
+          <i class="bi bi-shield-lock-fill" style="color: var(--accent-cyan);"></i>
+          <span data-i18n="legal_badge">Επίσημη Νομική Ενημέρωση</span>
+        </div>
+        <h3 class="tech-heading" data-i18n="privacy_title">Πολιτική Απορρήτου &amp; Προστασίας Δεδομένων</h3>
+        <p class="legal-modal-sub" data-i18n="privacy_subtitle">Πλήρης συμμόρφωση με τον Ευρωπαϊκό Γενικό Κανονισμό Προστασίας Δεδομένων (GDPR - EE 2016/679) και τον Ν. 4624/2019.</p>
+      </div>
+
+      <div class="legal-content-body">
+        <section class="legal-section">
+          <h4>1. Υπεύθυνος Επεξεργασίας Δεδομένων</h4>
+          <p>
+            Υπεύθυνος επεξεργασίας για τα δεδομένα που συλλέγονται μέσω του παρόντος ιστοτόπου είναι η εταιρεία <strong>EFEVRESIS</strong>.<br>
+            <strong>ΑΦΜ:</strong> 802691258 &bull; <strong>ΔΟΥ:</strong> Ε' Θεσσαλονίκης<br>
+            <strong>Αρ. Γ.Ε.ΜΗ.:</strong> 184592006000<br>
+            <strong>Έδρα:</strong> Θεσσαλονίκη (Κεντρικά) &amp; Υποκατάστημα Αθηνών<br>
+            <strong>Email Επικοινωνίας Υπευθύνου:</strong> <a href="mailto:ilias@toner-melania.gr">ilias@toner-melania.gr</a> &bull; <strong>Τηλ.:</strong> +30 2310 243 243
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>2. Ποια Δεδομένα Συλλέγουμε &amp; Πώς</h4>
+          <p>Συλλέγουμε μόνο τα απολύτως αναγκαία δεδομένα για την παροχή των υπηρεσιών μας και την εξυπηρέτησή σας:</p>
+          <ul>
+            <li><strong>Φόρμες Επικοινωνίας &amp; Αιτήματα Προσφοράς:</strong> Ονοματεπώνυμο, επαγγελματικό email, τηλέφωνο, επωνυμία επιχείρησης/φορέα και το περιεχόμενο του μηνύματος ή των τεχνικών προδιαγραφών που υποβάλλετε.</li>
+            <li><strong>Τεχνικά Δεδομένα Περιήγησης:</strong> Διεύθυνση IP, τύπος προγράμματος περιήγησης, λειτουργικό σύστημα, χρονικές σημάνσεις πρόσβασης μέσω βασικών τεχνικών αρχείων καταγραφής (server logs) για λόγους ασφαλείας.</li>
+            <li><strong>Cookies:</strong> Δεδομένα προτιμήσεων και τεχνικής λειτουργίας, κατόπιν της συγκατάθεσής σας μέσω του Cookie Banner.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section">
+          <h4>3. Σκοποί &amp; Νομική Βάση Επεξεργασίας (GDPR Άρθρο 6)</h4>
+          <p>Η επεξεργασία των προσωπικών σας δεδομένων πραγματοποιείται βάσει των εξής νόμιμων βάσεων:</p>
+          <ul>
+            <li><strong>Εκτέλεση Σύμβασης / Προσυμβατικά Μέτρα (Άρθρο 6 παρ. 1β):</strong> Για την επεξεργασία και απάντηση στα αιτήματά σας, την εκπόνηση οικονομοτεχνικών προσφορών και την παροχή των συμφωνημένων λύσεων λογισμικού και αυτοματισμού.</li>
+            <li><strong>Έννομο Συμφέρον (Άρθρο 6 παρ. 1στ):</strong> Για τη διασφάλιση της κυβερνοασφάλειας των συστημάτων μας, την αποτροπή κακόβουλων επιθέσεων και τη βελτιστοποίηση της λειτουργικότητας του ιστοτόπου.</li>
+            <li><strong>Ρητή Συγκατάθεση (Άρθρο 6 παρ. 1α):</strong> Για την αποστολή ενημερωτικών δελτίων (newsletter) ή τη χρήση μη απαραίτητων cookies.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section">
+          <h4>4. Ασφάλεια &amp; Μη Διαβίβαση σε Τρίτους</h4>
+          <p>
+            Η Efevresis εφαρμόζει αυστηρά τεχνικά και οργανωτικά μέτρα (κρυπτογράφηση SSL/TLS, access control, firewalls) για την προστασία των δεδομένων σας από μη εξουσιοδοτημένη πρόσβαση, απώλεια ή αλλοίωση. 
+            <strong>Δεν πωλούμε, δεν εκμισθώνουμε και δεν παραχωρούμε</strong> τα προσωπικά σας δεδομένα σε διαφημιστικές εταιρείες ή μη εξουσιοδοτημένους τρίτους. Διαβίβαση γίνεται αποκλειστικά σε αξιόπιστους παρόχους υποδομής (π.χ. cloud hosting servers εντός Ε.Ε.) που δεσμεύονται με συμβάσεις εμπιστευτικότητας DPA (Data Processing Agreement).
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>5. Χρόνος Διατήρησης</h4>
+          <p>
+            Τα δεδομένα επικοινωνίας και προσφορών διατηρούνται μόνο για όσο διάστημα απαιτείται για την εξυπηρέτηση του αιτήματος ή τη διάρκεια της εμπορικής σχέσης, και κατόπιν διαγράφονται με ασφάλεια, εκτός εάν υφίσταται έννομη υποχρέωση τήρησης (π.χ. φορολογική νομοθεσία).
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>6. Τα Δικαιώματά σας βάσει του GDPR</h4>
+          <p>Ως υποκείμενο των δεδομένων, διατηρείτε τα εξής απαράγραπτα δικαιώματα:</p>
+          <ul>
+            <li><strong>Δικαίωμα Πρόσβασης:</strong> Να γνωρίζετε εάν επεξεργαζόμαστε δεδομένα σας και να λάβετε αντίγραφό τους.</li>
+            <li><strong>Δικαίωμα Διόρθωσης:</strong> Να ζητήσετε τη διόρθωση ανακριβών ή ελλιπών στοιχείων σας.</li>
+            <li><strong>Δικαίωμα Διαγραφής («Δικαίωμα στη Λήθη»):</strong> Να ζητήσετε τη διαγραφή των δεδομένων σας όταν δεν είναι πλέον απαραίτητα.</li>
+            <li><strong>Δικαίωμα Περιορισμού της Επεξεργασίας:</strong> Υπό τις προϋποθέσεις του Άρθρου 18 GDPR.</li>
+            <li><strong>Δικαίωμα Φορητότητας:</strong> Να λάβετε τα δεδομένα σας σε δομημένο, κοινώς χρησιμοποιούμενο μορφότυπο.</li>
+            <li><strong>Δικαίωμα Εναντίωσης &amp; Ανάκλησης Συγκατάθεσης:</strong> Ανά πάσα στιγμή, χωρίς αναδρομικές συνέπειες.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section">
+          <h4>7. Άσκηση Δικαιωμάτων &amp; Αρχή Προστασίας Δεδομένων</h4>
+          <p>
+            Για την άσκηση οποιουδήποτε δικαιώματός σας, μπορείτε να επικοινωνήσετε απευθείας μαζί μας στο email: <a href="mailto:ilias@toner-melania.gr">ilias@toner-melania.gr</a>.<br>
+            Σε περίπτωση που θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τον ΓΚΠΔ, έχετε το δικαίωμα υποβολής καταγγελίας στην αρμόδια εποπτική αρχή: 
+            <strong>Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (ΑΠΔΠΧ)</strong>, Λ. Κηφισίας 1-3, Τ.Κ. 115 23, Αθήνα, Τηλ: 210 6475600, Website: <a href="https://www.dpa.gr" target="_blank" rel="noopener noreferrer">www.dpa.gr</a>.
+          </p>
+        </section>
+      </div>
+
+      <div class="legal-modal-footer">
+        <span class="legal-timestamp" data-i18n="legal_last_updated">Τελευταία Ενημέρωση: 2026</span>
+        <button type="button" class="btn btn-secondary legal-modal-close-btn" data-i18n="legal_btn_close">Κλείσιμο</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       TERMS OF USE MODAL
+       ========================================================================== -->
+  <div class="modal-overlay legal-modal-overlay" id="terms-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card legal-modal-card">
+      <button class="modal-close legal-modal-close" aria-label="Κλείσιμο Παραθύρου">&times;</button>
+      <div class="legal-modal-header">
+        <div class="badge">
+          <i class="bi bi-file-earmark-text-fill" style="color: var(--accent-cyan);"></i>
+          <span data-i18n="legal_badge">Επίσημη Νομική Ενημέρωση</span>
+        </div>
+        <h3 class="tech-heading" data-i18n="terms_title">Όροι Χρήσης &amp; Παροχής Υπηρεσιών</h3>
+        <p class="legal-modal-sub" data-i18n="terms_subtitle">Κανόνες περιήγησης, πνευματική ιδιοκτησία και νομική ευθύνη στην ιστοσελίδα της Efevresis.</p>
+      </div>
+
+      <div class="legal-content-body">
+        <section class="legal-section">
+          <h4>1. Εισαγωγή &amp; Αποδοχή Όρων</h4>
+          <p>
+            Η χρήση του παρόντος ιστοτόπου της <strong>Efevresis</strong> (εφεξής «η Εταιρεία») συνεπάγεται την ανεπιφύλακτη αποδοχή των παρόντων Όρων Χρήσης. Εάν ο επισκέπτης/χρήστης δεν συμφωνεί με τους όρους, οφείλει να απέχει από τη χρήση των υπηρεσιών και του περιεχομένου του ιστοτόπου.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>2. Πνευματική Ιδιοκτησία (Copyright &amp; Trademarks)</h4>
+          <p>
+            Όλο το περιεχόμενο του ιστοτόπου, συμπεριλαμβανομένων κειμένων, γραφικών, λογοτύπων, εμπορικών σημάτων, εικονιδίων, κώδικα λογισμικού και διαδραστικών εφαρμογών, αποτελεί αποκλειστική πνευματική και βιομηχανική ιδιοκτησία της Efevresis και προστατεύεται από τις σχετικές διατάξεις του Ελληνικού (Ν. 2121/1993), του Ευρωπαϊκού και του Διεθνούς Δικαίου. Απαγορεύεται ρητά οποιαδήποτε αντιγραφή, αναπαραγωγή, τροποποίηση, αναδημοσίευση ή διανομή χωρίς προηγούμενη έγγραφη άδεια.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>3. Ορθή Χρήση &amp; Υποχρεώσεις Χρήστη</h4>
+          <p>
+            Ο χρήστης συμφωνεί να χρησιμοποιεί τον ιστότοπο μόνο για νόμιμους σκοπούς. Απαγορεύεται αυστηρά:
+          </p>
+          <ul>
+            <li>Η χρήση συστημάτων αυτόματης εξαγωγής δεδομένων (web scraping, data mining) χωρίς προηγούμενη εξουσιοδότηση.</li>
+            <li>Η εισαγωγή κακόβουλου λογισμικού (ιών, trojans, worms) ή η διεξαγωγή επιθέσεων άρνησης υπηρεσίας (DDoS).</li>
+            <li>Η υποβολή ψευδών, δόλιων ή παραπλανητικών στοιχείων στις φόρμες επικοινωνίας και αιτήσεων προσφοράς.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section">
+          <h4>4. Περιορισμός Ευθύνης</h4>
+          <p>
+            Η Efevresis καταβάλλει κάθε δυνατή προσπάθεια για την ακρίβεια, πληρότητα και επικαιρότητα των πληροφοριών. Ωστόσο, το περιεχόμενο και οι διαδραστικοί υπολογιστές εκτιμήσεων παρέχονται «ως έχουν» (as is). Οι εκτιμήσεις του Project Estimator αποτελούν ενδεικτική προκαταρκτική προσέγγιση και δεν συνιστούν δεσμευτική σύμβαση ή οριστική οικονομική προσφορά μέχρι την επίσημη έγγραφη κατάρτιση σύμβασης.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>5. Σύνδεσμοι προς Τρίτους (Third-Party Links)</h4>
+          <p>
+            Ο ιστότοπος ενδέχεται να περιέχει συνδέσμους προς εξωτερικές ιστοσελίδες τρίτων (π.χ. WhatsApp, Viber, δημόσιοι φορείς). Η Efevresis δεν ελέγχει και δεν φέρει καμία ευθύνη για το περιεχόμενο, την πολιτική απορρήτου ή την ασφάλεια των ιστοτόπων αυτών.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h4>6. Εφαρμοστέο Δίκαιο &amp; Δικαιοδοσία</h4>
+          <p>
+            Οι παρόντες όροι διέπονται και ερμηνεύονται σύμφωνα με το Ελληνικό Δίκαιο και το Δίκαιο της Ευρωπαϊκής Ένωσης. Για οποιαδήποτε διαφορά προκύψει από τη χρήση του ιστοτόπου, αποκλειστικά αρμόδια ορίζονται τα δικαστήρια της <strong>Θεσσαλονίκης</strong>.
+          </p>
+        </section>
+      </div>
+
+      <div class="legal-modal-footer">
+        <span class="legal-timestamp" data-i18n="legal_last_updated">Τελευταία Ενημέρωση: 2026</span>
+        <button type="button" class="btn btn-secondary legal-modal-close-btn" data-i18n="legal_btn_close">Κλείσιμο</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       COOKIES POLICY & PREFERENCES MODAL
+       ========================================================================== -->
+  <div class="modal-overlay legal-modal-overlay" id="cookies-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card legal-modal-card">
+      <button class="modal-close legal-modal-close" aria-label="Κλείσιμο Παραθύρου">&times;</button>
+      <div class="legal-modal-header">
+        <div class="badge">
+          <i class="bi bi-cookie" style="color: var(--accent-cyan);"></i>
+          <span data-i18n="legal_badge">Επίσημη Νομική Ενημέρωση</span>
+        </div>
+        <h3 class="tech-heading" data-i18n="cookies_modal_title">Πολιτική &amp; Ρυθμίσεις Cookies</h3>
+        <p class="legal-modal-sub" data-i18n="cookies_modal_subtitle">Διαχειριστείτε τις προτιμήσεις απορρήτου και επιλέξτε ποια cookies επιτρέπετε.</p>
+      </div>
+
+      <div class="legal-content-body">
+        <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 20px;">
+          Τα cookies είναι μικρά αρχεία κειμένου που αποθηκεύονται στη συσκευή σας όταν επισκέπτεστε έναν ιστότοπο. Χρησιμοποιούνται για να λειτουργεί σωστά η σελίδα, να θυμάται τις επιλογές σας και να μας βοηθά να βελτιώνουμε την εμπειρία χρήστη, σύμφωνα με την Ευρωπαϊκή Οδηγία ePrivacy και τον ΓΚΠΔ (GDPR).
+        </p>
+
+        <!-- Category 1: Strictly Necessary -->
+        <div class="cookie-pref-item">
+          <div class="cookie-pref-info">
+            <div class="cookie-pref-title">
+              <strong>Απολύτως Απαραίτητα Cookies</strong>
+              <span class="cookie-pill-req">Υποχρεωτικά</span>
+            </div>
+            <p>Απαραίτητα για τη βασική λειτουργία, την ασφάλεια (π.χ. φόρμες) και την πλοήγηση. Χωρίς αυτά ο ιστότοπος δεν μπορεί να λειτουργήσει κανονικά. Δεν περιέχουν προσωπικά στοιχεία ταυτοποίησης.</p>
+          </div>
+          <div class="cookie-switch-wrap">
+            <input type="checkbox" id="cookie-pref-necessary" checked disabled class="cookie-switch-input">
+            <label for="cookie-pref-necessary" class="cookie-switch-label disabled"></label>
+          </div>
+        </div>
+
+        <!-- Category 2: Functional & Preferences -->
+        <div class="cookie-pref-item">
+          <div class="cookie-pref-info">
+            <div class="cookie-pref-title">
+              <strong>Cookies Λειτουργικότητας &amp; Προτιμήσεων</strong>
+              <span class="cookie-pill-opt">Προαιρετικά</span>
+            </div>
+            <p>Επιτρέπουν στον ιστότοπο να απομνημονεύει τις επιλογές σας, όπως την επιλεγμένη γλώσσα (Ελληνικά / Αγγλικά), το θέμα εμφάνισης (Σκοτεινό / Φωτεινό) και τις παραμέτρους του υπολογιστή έργου.</p>
+          </div>
+          <div class="cookie-switch-wrap">
+            <input type="checkbox" id="cookie-pref-functional" checked class="cookie-switch-input">
+            <label for="cookie-pref-functional" class="cookie-switch-label"></label>
+          </div>
+        </div>
+
+        <!-- Category 3: Analytics & Performance -->
+        <div class="cookie-pref-item">
+          <div class="cookie-pref-info">
+            <div class="cookie-pref-title">
+              <strong>Cookies Στατιστικών &amp; Απόδοσης</strong>
+              <span class="cookie-pill-opt">Προαιρετικά</span>
+            </div>
+            <p>Μας βοηθούν να κατανοούμε πώς οι επισκέπτες αλληλεπιδρούν με τον ιστότοπο, συλλέγοντας συγκεντρωτικές και εντελώς ανώνυμες πληροφορίες επισκεψιμότητας για τη βελτίωση της ταχύτητας και της εμπειρίας.</p>
+          </div>
+          <div class="cookie-switch-wrap">
+            <input type="checkbox" id="cookie-pref-analytics" checked class="cookie-switch-input">
+            <label for="cookie-pref-analytics" class="cookie-switch-label"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="legal-modal-footer" style="justify-content: flex-end; gap: 12px;">
+        <button type="button" class="btn btn-secondary" id="cookie-save-prefs-btn" data-i18n="cookie_btn_save">Αποθήκευση Επιλογών</button>
+        <button type="button" class="btn btn-primary" id="cookie-modal-accept-all" data-i18n="cookie_btn_accept">Αποδοχή Όλων</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING COOKIE CONSENT BANNER
+       ========================================================================== -->
+  <aside class="cookie-banner" id="cookie-consent-banner" aria-label="Συγκατάθεση Cookies" style="display: none;">
+    <div class="cookie-banner-inner">
+      <div class="cookie-banner-content">
+        <div class="cookie-banner-icon">
+          <i class="bi bi-shield-check"></i>
+        </div>
+        <div class="cookie-banner-text">
+          <h4 data-i18n="cookie_banner_title">Σεβόμαστε την Ιδιωτικότητά σας</h4>
+          <p data-i18n="cookie_banner_desc">
+            Χρησιμοποιούμε cookies για τη διασφάλιση της ομαλής λειτουργίας του ιστοτόπου μας και τη βελτιστοποίηση της εμπειρίας σας, σε συμμόρφωση με τον ΓΚΠΔ (GDPR EU 2016/679) και την Οδηγία ePrivacy.
+          </p>
+        </div>
+      </div>
+      <div class="cookie-banner-actions">
+        <button type="button" class="btn btn-primary btn-sm" id="cookie-accept-all-btn" data-i18n="cookie_btn_accept">Αποδοχή Όλων</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="cookie-reject-btn" data-i18n="cookie_btn_reject">Μόνο Απαραίτητα</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="cookie-settings-btn" data-i18n="cookie_btn_settings">Προσαρμογή</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       QUICK CONNECT FLOATING HUB (WHATSAPP, VIBER, PHONES, QUOTE)
+       ========================================================================== -->
+  <aside class="quick-connect-hub" id="quick-connect" aria-label="Άμεση Επικοινωνία">
+    <!-- Popup Drawer -->
+    <div class="quick-connect-menu" id="quick-connect-menu" aria-hidden="true">
+      <div class="quick-connect-header">
+        <div class="quick-status-dot"></div>
+        <div class="quick-header-text">
+          <div class="quick-title" data-i18n="qc_title">Άμεση Επικοινωνία</div>
+          <div class="quick-status" data-i18n="qc_status">Online • Άμεση Ανταπόκριση</div>
+        </div>
+      </div>
+
+      <div class="quick-connect-list">
+        <!-- WhatsApp -->
+        <a href="https://wa.me/302310243243?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82%2C%20%CE%B5%CE%BD%CE%B4%CE%B9%CE%B1%CF%86%CE%AD%CF%81%CE%BF%CE%BC%CE%B1%CE%B9%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B9%CF%82%20%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B5%CF%82%20%CF%84%CE%B7%CF%82%20Efevresis"
+          target="_blank" rel="noopener noreferrer" class="qc-item qc-whatsapp">
+          <div class="qc-icon"><i class="bi bi-whatsapp"></i></div>
+          <div class="qc-info">
+            <span class="qc-label">WhatsApp</span>
+            <span class="qc-sub" data-i18n="qc_chat_now">Συνομιλήστε Ζωντανά</span>
+          </div>
+          <i class="bi bi-chevron-right qc-arrow"></i>
+        </a>
+
+        <!-- Viber -->
+        <a href="viber://chat?number=%2B302310243243" class="qc-item qc-viber">
+          <div class="qc-icon"><i class="bi bi-chat-dots-fill"></i></div>
+          <div class="qc-info">
+            <span class="qc-label">Viber</span>
+            <span class="qc-sub" data-i18n="qc_viber_msg">Μήνυμα στο Viber</span>
+          </div>
+          <i class="bi bi-chevron-right qc-arrow"></i>
+        </a>
+
+        <!-- Direct Call Thessaloniki -->
+        <a href="tel:+302310243243" class="qc-item qc-phone">
+          <div class="qc-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div class="qc-info">
+            <span class="qc-label">2310 243 243</span>
+            <span class="qc-sub" data-i18n="qc_thess_phone">Κεντρικά Θεσσαλονίκη</span>
+          </div>
+          <i class="bi bi-chevron-right qc-arrow"></i>
+        </a>
+
+        <!-- Direct Call Athens -->
+        <a href="tel:+302102207580" class="qc-item qc-phone">
+          <div class="qc-icon"><i class="bi bi-telephone-outbound-fill"></i></div>
+          <div class="qc-info">
+            <span class="qc-label">210 220 7580</span>
+            <span class="qc-sub" data-i18n="qc_ath_phone">Γραφείο Αθήνα</span>
+          </div>
+          <i class="bi bi-chevron-right qc-arrow"></i>
+        </a>
+
+        <!-- Quick Quote Trigger -->
+        <button class="qc-item qc-quote" data-open-quote>
+          <div class="qc-icon"><i class="bi bi-file-earmark-text-fill"></i></div>
+          <div class="qc-info">
+            <span class="qc-label" data-i18n="nav_quote_btn">Ζητήστε Προσφορά</span>
+            <span class="qc-sub" data-i18n="qc_quote_sub">Εκτίμηση εντός 24 ωρών</span>
+          </div>
+          <i class="bi bi-arrow-up-right qc-arrow"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Trigger Button -->
+    <button class="quick-connect-btn" id="quick-connect-toggle" aria-label="Άνοιγμα Άμεσης Επικοινωνίας"
+      title="Quick Connect">
+      <span class="qc-btn-pulse"></span>
+      <i class="bi bi-chat-dots-fill icon-open"></i>
+      <i class="bi bi-x-lg icon-close"></i>
+    </button>
+  </aside>
+
+  <!-- ==========================================================================
+       ELFSIGHT AI CHATBOT (EFEVRESIS OFFICIAL)
+       ========================================================================== -->
+  <!-- Elfsight AI Chatbot | efevresis -->
+  <script src="https://elfsightcdn.com/platform.js" async></script>
+  <div class="elfsight-app-5c48e162-959a-4fa8-bd56-86477379e3e6"></div>
+
+
+
+  <script>
+    if (location.search.includes('fresh')) {
+      localStorage.clear();
+      sessionStorage.clear();
+    }
+  </script>
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/clients_data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
